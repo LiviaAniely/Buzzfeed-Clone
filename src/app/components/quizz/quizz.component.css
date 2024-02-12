@@ -14,6 +14,7 @@
 
 .quizz-logo h3{
   margin-top: 20px;
+  font-size: 30px;
 }
 
 .quizz-questions{
@@ -41,7 +42,7 @@
   background-color: transparent;
   border-radius: 8px;
   border: 1px solid #18ab29;
-  width: 50%;
+  width: 48%;
   display: inline-block;
   cursor: pointer;
   color: #fff;
@@ -50,6 +51,7 @@
   padding: 16px 31px;
   text-decoration: none;
   text-shadow: 0px 1px 0px #2f6627;
+  margin: 2px;
 }
 
 .btn-option:hover{
@@ -63,7 +65,7 @@
 
 .quizz-results{
   width: 100%;
-  height: 350px;
+  height: 300px;
   background-color: rgb(33, 2, 57);
   border-radius: 10px;
   padding: 30px;
@@ -71,4 +73,5 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 30px;
 }
